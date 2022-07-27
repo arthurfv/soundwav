@@ -1,0 +1,160 @@
+/*fonts google*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-image: url(figures/purple.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.w50{
+    width: 105%;
+    float: left;
+    padding-right: 15px;
+}
+
+.box{
+    display: flex;
+    width: 930px;
+}
+
+.img-box{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.form-box{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+
+.form-box h2{
+    font-size: 30px;
+    color: #390977;
+}
+
+.form-box p{
+    font-weight: bold;
+    color: #5d32a7;
+}
+
+.form-box p a{
+    color: #390977;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.form-box p a:hover{
+    color: #0f7fc4;
+}
+
+.form-box form{
+    margin: 20px 0;
+}
+
+form .input-group{
+    margin-bottom: 15px;
+}
+
+form .input-group label{
+    color: #390977;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form .input-group input{
+    width: 100%;
+    height: 47px;
+    background-color: rgba(255, 255, 255, 0.32);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #7E57C2;
+    padding: 15px;
+    font-size: 15px;
+    color: #390977;
+    transition: all 0.4s ease;
+}
+
+form .input-group input:focus{
+    border-color: #390977;
+}
+
+form .input-group button{
+    width: 100%;
+    height: 47px;
+    background-color: #ab83f0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: #390977;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form .input-group button:hover{
+    background-color: #390977;
+    color: white;
+}
+
+form .input-group input::placeholder{
+    color: #5d32a7;
+}
+
+.fa-eye{
+    position: relative;
+    bottom: 30px ;
+    left: 350px;
+    cursor: pointer;
+    color:#5d32a7;
+}
+
+@media (max-width:930px){
+    .img-box{
+        display: none;
+    }
+    .box{
+        width: 700px;
+    }
+    .form-box{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+@media (max-width:500px){
+    .w50{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width:500px){
+    .fa-eye{
+        width: 100%;
+        padding: 0;
+    }
+}

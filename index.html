@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Soundwave - Início</title>
+  </head>
+  <body>
+    <!--Início do cabeçalho-->
+    <header class="header">
+      <nav class="navbar">
+        <img src="./img/logo_transparent.png" class="logo">
+        <ul>
+          <li><a href="index.html">início</a></li>
+          <li><a href="register.html">entrar</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Fim do cabeçalho-->
+
+    <!--Início do home-->
+    <section class="home">
+      <div class="content">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <h3 class="animate-charcter">
+          soundwave tem as melhores <span>músicas</span> e <span>sons</span>
+        </h3>
+        <button class="glow-on-hover" type="button" id="musica">
+          ouvir música
+        </button>
+      </div>
+    </section>
+    <!--Fim do home-->
+
+    <!--Início do sobre-->
+
+    <section class="about">
+      <h1 class="heading"><span>sobre</span> nós</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="imagens/foto1.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>O que faz nosso site ser tão especial?</h3>
+          <p>
+            Soundwave é um site para ouvir músicas eletrônicas gratuitamente.
+          </p>
+          <p>Você também encontrará materiais de referências e mais!</p>
+          <p>
+            Registre-se em nosso site para ter acesso ao nossa biblioteca gratuita.
+          </p>
+          <a href="register.html" class="btn">Registre-se aqui</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Fim do sobre-->
+
+    <section class="footer">
+     
+      <div class="credit">
+        criado por <span>kaio, arthur, joão & Gabriel </span>| todos os direitos
+        reservados
+      </div>
+    </section>
+
+    <audio id="mySong">
+      <source src="./msc/you_will_never_know.mp3" type="audio/mp3" />
+    </audio>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

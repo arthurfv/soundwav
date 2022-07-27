@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  background-color: #1c1c1c;
+  font-size: 1.5rem;
+}
+
+.container {
+  background-color: black;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.label {
+  padding: 20px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  transition: 400ms;
+}
+
+a:hover {
+  font-size: 21.5px;
+  transition: 400ms;
+}
+
+.section {
+  border: solid 6px;
+  border-color: black;
+  border-radius: 4px;
+  color: white;
+  background-image: url(figures/purple.jpg);
+  background-size: cover;
+}
+
+.search {
+  margin-left: 79%;
+  border: 1px solid rgba(18, 18, 19, 0.562);
+  border-radius: 6px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 190px;
+  height: 19px;
+}
+
+.alta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 30px;
+}
+
+.dubstep {
+  padding: 15.1px;
+}
+
+.autor {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* Grade */
+.grade1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.msc1 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  background-image: url(msc/cradles.jpg);
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.msc1L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  padding: 16.9%;
+  transition: 400ms;
+  border: transparent solid;
+  font-size: 35px;
+  -webkit-text-stroke: black 0.5px;
+  text-align: center;
+}
+
+.msc1L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+.msc2 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  background-image: url(msc/desmeon.jpg);
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.msc2L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  transition: 400ms;
+  padding-left: 16.5%;
+  font-size: 35px;
+  border: transparent solid;
+  -webkit-text-stroke: black 0.5px;
+  text-align: center;
+}
+
+.msc2L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+.msc3 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  background-image: url(msc/runningalway.jpg);
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.msc3L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  padding-left: 3.5%;
+  transition: 400ms;
+  font-size: 28px;
+  border: transparent solid;
+  -webkit-text-stroke: black 0.5px;
+  text-align: center;
+}
+
+.msc3L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+.msc4 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  background-image: url(msc/whenimgone.jpg);
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.msc4L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.5%;
+  transition: 400ms;
+  border: transparent solid;
+  font-size: 35px;
+  text-align: center;
+  -webkit-text-stroke: black 0.5px;
+}
+
+.msc4L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+.msc5 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  background-image: url(msc/patience.jpg);
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.msc5L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  padding-left: 13.5%;
+  transition: 400ms;
+  font-size: 35px;
+  border: transparent solid;
+  -webkit-text-stroke: black 1px;
+  text-align: center;
+}
+
+.msc5L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+.msc6 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  background-image: url(msc/Awayfromme.jpg);
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  display: flex;
+  border: transparent solid;
+}
+
+.msc6L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  padding-left: 2.5%;
+  transition: 400ms;
+  font-size: 35px;
+  border: transparent solid;
+  -webkit-text-stroke: black 0.5px;
+  text-align: center;
+}
+
+.msc6L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+/*Hovers G1*/
+
+.msc1:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  background-image: url(msc/cradles.jpg);
+  opacity: 86%;
+  border-color: #dfdfdf8c;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  color: white;
+}
+
+.msc2:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  background-image: url(msc/desmeon.jpg);
+  opacity: 86%;
+  border-color: #dfdfdf8c;
+}
+
+.msc3:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  background-image: url(msc/runningalway.jpg);
+  opacity: 86%;
+  border-color: #dfdfdf8c;
+}
+
+.msc4:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  background-image: url(msc/whenimgone.jpg);
+  opacity: 86%;
+  border-color: #dfdfdf8c;
+}
+
+.msc5:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  background-image: url(msc/patience.jpg);
+  opacity: 86%;
+  border-color: #dfdfdf8c;
+}
+
+.msc6:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  background-image: url(msc/Awayfromme.jpg);
+  opacity: 86%;
+  border-color: #dfdfdf8c;
+}
+
+/* Grade 2 */
+
+.grade2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.g2msc1 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(msc/nightcall.png);
+}
+
+.G2msc1L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  padding-left: 14.9%;
+  transition: 400ms;
+  font-size: 42px;
+  color: rgb(255, 255, 255);
+  border: transparent solid;
+  -webkit-text-stroke: black 0.5px;
+  text-align: center;
+}
+
+.G2msc1L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+.g2msc2 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  display: flex;
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-image: url(msc/redlight.jpg);
+}
+
+.G2msc2L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  transition: 400ms;
+  font-size: 34px;
+  border: transparent solid;
+  -webkit-text-stroke: black 0.5px;
+  text-align: center;
+}
+
+.G2msc2L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+.g2msc3 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  display: flex;
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-image: url(msc/daydream.jpg);
+}
+
+.G2msc3L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  padding-left: 2.5%;
+  transition: 400ms;
+  font-size: 38px;
+  border: transparent solid;
+  -webkit-text-stroke: black 0.5px;
+  text-align: center;
+}
+
+.G2msc3L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+.g2msc4 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  display: flex;
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-image: url(msc/lights.jpg);
+}
+
+.G2msc4L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  padding-left: 25.5%;
+  transition: 400ms;
+  font-size: 39px;
+  border: transparent solid;
+  text-shadow: #1c1c1c 30px;
+  -webkit-text-stroke: black 1px;
+}
+
+.G2msc4L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+.g2msc5 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  display: flex;
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-image: url(msc/oldschool.jpg);
+}
+
+.G2msc5L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  padding-left: 4.5%;
+  transition: 400ms;
+  border: transparent solid;
+  -webkit-text-stroke: black 0.5px;
+  text-align: center;
+}
+
+.G2msc5L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+.g2msc6 {
+  border: solid 4px rgba(18, 18, 19, 0.562);
+  border-radius: 4px;
+  width: 200px;
+  height: 190px;
+  margin: 12px;
+  transition: 800ms;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(msc/inflames.png);
+}
+
+.G2msc6L {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  opacity: 0%;
+  display: flex;
+  align-items: center;
+  padding-left: 22.5%;
+  font-size: 40px;
+  transition: 400ms;
+  color: white;
+  border: transparent solid;
+  -webkit-text-stroke: black 0.5px;
+}
+
+.G2msc6L:hover {
+  opacity: 100%;
+  transition: 250ms;
+}
+
+/*Hovers G2*/
+
+.g2msc1:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  border-color: #dfdfdf8c;
+}
+
+.g2msc2:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  border-color: #dfdfdf8c;
+}
+
+.g2msc3:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  border-color: #dfdfdf8c;
+}
+
+.g2msc4:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  border-color: #dfdfdf8c;
+}
+
+.g2msc5:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  border-color: #dfdfdf8c;
+}
+
+.g2msc6:hover {
+  background-color: rgba(255, 255, 255, 0.048);
+  transition: 800ms;
+  border-color: #dfdfdf8c;
+}
+
+.procurar {
+  border: 1px solid rgba(18, 18, 19, 0.562);
+  border-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  height: 23.1px;
+  background-color: white;
+}
+
+.musicplayer {
+  border: solid 2px rgba(128, 128, 128, 0.199);
+  width: 1200px;
+  height: 390px;
+  margin: 60px;
+  border-radius: 2px;
+}
+
+/*INSERIR IMAGEM AQUI*/
+.mscimage {
+  border: solid gray 1px;
+  border-radius: 2px;
+  width: 280px;
+  height: 280px;
+  margin: 50px;
+  margin-left: 90px;
+}
+/*Não inserir adiante*/
+
+.gradeMSCP {
+  display: flex;
+  margin: 1px;
+}
+
+.playr {
+  border: solid gray 1px;
+  width: 600px;
+  height: 280px;
+  margin-top: 50px;
+}
